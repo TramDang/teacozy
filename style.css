@@ -1,1 +1,34 @@
-1111
+body{
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  justify-content: center;
+}
+#logo{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 67px;
+  border-bottom: 1px solid seashell;
+}
+
+.title{
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.menu{
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right;
+  width: 85%;
+  }
+.menu a{
+  color: seashell;
+  padding: 10px;
+  text-decoration: underline;
+}
