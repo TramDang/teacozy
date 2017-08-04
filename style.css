@@ -29,11 +29,11 @@ body{
 
 .navigation{
   display: inline-block;
-  margin-right: 10px;
   text-align: right;
-  width: 100%;
+  width: 85%;
   position: fixed;
   z-index: 5;
+
   }
 .font a{
   color: seashell;
