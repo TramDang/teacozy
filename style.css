@@ -91,7 +91,7 @@ body{
 }
 .photos{
   display: flex;
-
+  margin-top: 30px;
   flex-wrap: wrap;
   height: 600px;
   justify-content: space-around;
@@ -128,14 +128,14 @@ margin-top: 10px;
   width: 300px;
   margin-top: 10px;
   margin-left: auto;
-  margin right: 20px;
+  margin-right: 20px;
 }
 .text2 h4{
   text-align: center;
   width: 300px;
   margin-top: 10px;
   margin-left: 20px;
-  margin right: auto;
+  margin-right: auto;
 }
 
 .box3{
@@ -145,23 +145,48 @@ margin-top: 10px;
   align-items: center;
 }
 h3 .locations{
-  text-align: center:
+  text-align: center;
+
 }
 .locations{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-  height: 500px;
+  height: 550px;
   width: 1200px;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
 }
-.square{
-  display: inline-block;
+.banner h2{
+  display: flex;
+  width: 300px;
+  height: 50px;
+  margin: 50px 20px auto;
+  justify-content: center;
+
+
+
+}
+.content{
+  display: flex;
+  width: 1200px;
+  height: 425px;
+
+
+}
+.squares{
+  display: inline-flex;
   width: 300px;
   height: 300px;
   background-color: black;
-  text-align: center;
-  margin: 0px 20px;
+  margin: 30px 40px;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
 }
 .address{
+  display: block;
   padding: 20px;
+  text-align: center;
 }
